@@ -25,7 +25,7 @@ def zeros(n):
     k_max = int(log(n, 5))
     z = 0
     for k in range(1, k_max+1):
-        z += n/5**k
+        z += int(n / 5**k)
     return int(z)
 
 
